@@ -1,1 +1,168 @@
+Body {
+  background-color: teal;
+  margin: 10% 10%
+}
 
+/* header details */
+
+h1 {
+  Color: white;
+  background-color: black;
+  border: 10px solid black;
+  border-radius: 25% / 100% 100% 0 0;
+  font-size: 48px;
+  font-family: copperplate, sans-serif;
+  text-align: center;
+}
+
+/* header details above */
+
+.title {
+  text-align: center;
+}
+
+/* fade trial */
+
+.title {
+  animation: fadeIn 10s;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benRehmann {
+  animation: fadeIn 5s;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.magician {
+  animation: fadeIn 15s;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* end fade trial */
+
+
+.workexp {
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin-top: 30px;
+}
+
+.edskills {
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin-top: 30px;
+}
+
+/* Four work exp jump point photos below */
+
+.inline-block {
+  width: 40%;
+  display: inline-block;
+  border: 5px ridge teal;
+  margin-left: 55px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* Four work exp jump point photos above */
+
+.volhob {
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin-top: 30px;
+}
+
+.frispic {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 5px ridge teal;
+}
+
+.wiscopic {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 5px ridge teal;
+}
+
+h3 {
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Begin employment descriptor mods */
+
+h4 {
+  color: white;
+  background-color: black;
+  border: 5px solid black;
+  font-size: 28px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+/* bullet point change start */
+
+ul {
+  text-align: center;
+   list-style: none;
+   margin-left: 0;
+   padding-left: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "+";
+  padding-right: 10px;
+  color: white;
+}
+
+/* bullet point change end */
+
+.return1 {
+  font-size: 14px;
+}
+
+
+/* end employment descriptor mods */
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  font-family: copperplate, sans-serif;
+  border: 1px solid black;
+  text-align: center;
+}
